@@ -1,0 +1,117 @@
+.AppHeaderNav_visually-hidden__X4ksG {
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  position: absolute;
+  white-space: nowrap;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  border: 0
+}
+
+.AppHeaderNav_visually-hidden__X4ksG.AppHeaderNav_focusable__2vJnp:active,
+.AppHeaderNav_visually-hidden__X4ksG.AppHeaderNav_focusable__2vJnp:focus {
+  width: auto;
+  height: auto;
+  margin: 0;
+  position: static;
+  white-space: inherit;
+  overflow: visible;
+  clip: auto
+}
+
+.AppHeaderNav_nav__E6fGA {
+  margin-inline: auto
+}
+
+.AppHeaderNav_list__6Pd_A {
+  display: flex;
+  align-items: center;
+  gap: .2rem
+}
+
+.AppHeaderNav_item__tdWX6 {
+  display: block
+}
+
+.AppHeaderNav_item__tdWX6:first-child .AppHeaderNav_link__Q_WsT {
+  min-width: 9.2rem
+}
+
+.AppNavToggle_visually-hidden__NqRFq {
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  position: absolute;
+  white-space: nowrap;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  border: 0
+}
+
+.AppNavToggle_visually-hidden__NqRFq.AppNavToggle_focusable__GOgOz:active,
+.AppNavToggle_visually-hidden__NqRFq.AppNavToggle_focusable__GOgOz:focus {
+  width: auto;
+  height: auto;
+  margin: 0;
+  position: static;
+  white-space: inherit;
+  overflow: visible;
+  clip: auto
+}
+
+.AppNavToggle_toggle__Riis1 {
+  --navToggleTextWidth: 4ch;
+  position: relative
+}
+
+@media screen and (min-width:1024px) {
+  .AppNavToggle_toggle__Riis1 {
+    display: none
+  }
+}
+
+.AppNavToggle_toggle__Riis1.AppNavToggle_isOpen__yop5W {
+  --navToggleTextWidth: 5ch
+}
+
+.AppNavToggle_content__KALfR {
+  display: grid;
+  grid-template-areas: "stack";
+  align-items: flex-start
+}
+
+.AppNavToggle_content__KALfR>* {
+  grid-area: stack
+}
+
+.AppNavToggle_content__KALfR {
+  justify-items: flex-start;
+  width: var(--navToggleTextWidth, auto);
+  transition: width .3s cubic-bezier(.25, .46, .45, .94);
+  will-change: transform
+}
+
+.AppNavToggle_close__I76Mw,
+.AppNavToggle_open___gRVy {
+  transition: .3s cubic-bezier(.25, .46, .45, .94);
+  transition-property: opacity, visibility
+}
+
+.AppNavToggle_open___gRVy {
+  visibility: visible;
+  opacity: 1
+}
+
+.AppNavToggle_close__I76Mw,
+.AppNavToggle_isOpen__yop5W .AppNavToggle_open___gRVy {
+  visibility: hidden;
+  opacity: 0
+}
+
+.AppNavToggle_isOpen__yop5W .AppNavToggle_close__I76Mw {
+  visibility: visible;
+  opacity: 1
+}

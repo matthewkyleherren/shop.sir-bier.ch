@@ -1,0 +1,19 @@
+var _path;
+function _extends() { return _extends = Object.assign ? Object.assign.bind() : function (n) { for (var e = 1; e < arguments.length; e++) { var t = arguments[e]; for (var r in t) ({}).hasOwnProperty.call(t, r) && (n[r] = t[r]); } return n; }, _extends.apply(null, arguments); }
+import * as React from "react";
+import { forwardRef } from "react";
+var SvgExternalLinkArrow = function SvgExternalLinkArrow(props, ref) {
+  return /*#__PURE__*/React.createElement("svg", _extends({
+    width: 6,
+    height: 5,
+    viewBox: "0 0 6 5",
+    fill: "none",
+    xmlns: "http://www.w3.org/2000/svg",
+    ref: ref
+  }, props), _path || (_path = /*#__PURE__*/React.createElement("path", {
+    d: "M0.946289 3.97183L4.25829 0.651832H1.85829L1.86629 0.027832H5.38629V3.54783H4.75429V1.15583L1.44229 4.46783L0.946289 3.97183Z",
+    fill: "#191919"
+  })));
+};
+var ForwardRef = /*#__PURE__*/forwardRef(SvgExternalLinkArrow);
+export default ForwardRef;
