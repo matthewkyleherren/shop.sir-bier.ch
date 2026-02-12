@@ -20,7 +20,7 @@
               l = window.location.port;
             return "".concat(e, "//").concat(a).concat(l ? ":".concat(l) : "")
           }
-          return o.env.VERCEL_PROJECT_PRODUCTION_URL ? "https://".concat(o.env.VERCEL_PROJECT_PRODUCTION_URL) : "http://localhost:8183"
+          return o.env.VERCEL_PROJECT_PRODUCTION_URL ? "https://".concat(o.env.VERCEL_PROJECT_PRODUCTION_URL) : "https://shop-sir-bier-ch.vercel.app"
         },
         d = () => {
           let e = (0, r.useRouter)();
@@ -197,7 +197,7 @@
           children: (0, t.jsx)("video", {
             width: l,
             height: i,
-            src: p ? r ? "http://localhost:8183" + r : "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4" : void 0,
+            src: p ? r ? "https://shop-sir-bier-ch.vercel.app" + r : "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4" : void 0,
             muted: !0,
             playsInline: !0,
             autoPlay: !0,
@@ -290,7 +290,7 @@
           children: (0, t.jsx)(n.default, {
             width: i,
             height: s,
-            src: c ? m ? c : "http://localhost:8183" + c : y,
+            src: c ? m ? c : "https://shop-sir-bier-ch.vercel.app" + c : y,
             alt: l || "",
             sizes: null != u ? u : "100vw",
             ...p,
@@ -659,7 +659,7 @@
                 }
               });
               try {
-                let e = await fetch("http://localhost:8183/api/form-submissions", {
+                let e = await fetch("https://shop-sir-bier-ch.vercel.app/api/form-submissions", {
                     method: "POST",
                     headers: {
                       "Content-Type": "application/json"

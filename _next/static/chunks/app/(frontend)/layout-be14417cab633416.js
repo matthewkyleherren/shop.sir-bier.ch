@@ -1074,7 +1074,7 @@
           children: (0, a.jsx)(t.default, {
             width: r,
             height: n,
-            src: i ? u ? i : "http://localhost:8183" + i : v,
+            src: i ? u ? i : "https://shop-sir-bier-ch.vercel.app" + i : v,
             alt: l || "",
             ..._
           })
